@@ -1,0 +1,135 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf
+
+Design file:              Main.ncd
+Physical constraint file: Main.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Cin            |f<0>           |    8.962|
+Cin            |f<1>           |    8.937|
+Cin            |f<2>           |    8.497|
+Cin            |f<3>           |    8.965|
+Cin            |f<4>           |    8.851|
+Cin            |f<5>           |    8.708|
+Cin            |f<6>           |    8.908|
+a<0>           |f<0>           |    9.159|
+a<0>           |f<1>           |    9.134|
+a<0>           |f<2>           |    8.694|
+a<0>           |f<3>           |    9.162|
+a<0>           |f<4>           |    9.048|
+a<0>           |f<5>           |    8.905|
+a<0>           |f<6>           |    9.105|
+a<1>           |f<0>           |    8.513|
+a<1>           |f<1>           |    8.488|
+a<1>           |f<2>           |    8.048|
+a<1>           |f<3>           |    8.516|
+a<1>           |f<4>           |    8.402|
+a<1>           |f<5>           |    8.259|
+a<1>           |f<6>           |    8.459|
+a<2>           |f<0>           |    8.234|
+a<2>           |f<1>           |    8.209|
+a<2>           |f<2>           |    7.769|
+a<2>           |f<3>           |    8.237|
+a<2>           |f<4>           |    8.123|
+a<2>           |f<5>           |    7.980|
+a<2>           |f<6>           |    8.180|
+a<3>           |f<0>           |    7.616|
+a<3>           |f<1>           |    7.591|
+a<3>           |f<2>           |    7.151|
+a<3>           |f<3>           |    7.619|
+a<3>           |f<4>           |    7.505|
+a<3>           |f<5>           |    7.362|
+a<3>           |f<6>           |    7.562|
+b<0>           |f<0>           |    9.018|
+b<0>           |f<1>           |    8.993|
+b<0>           |f<2>           |    8.553|
+b<0>           |f<3>           |    9.021|
+b<0>           |f<4>           |    8.907|
+b<0>           |f<5>           |    8.764|
+b<0>           |f<6>           |    8.964|
+b<1>           |f<0>           |    8.535|
+b<1>           |f<1>           |    8.510|
+b<1>           |f<2>           |    8.070|
+b<1>           |f<3>           |    8.538|
+b<1>           |f<4>           |    8.424|
+b<1>           |f<5>           |    8.281|
+b<1>           |f<6>           |    8.481|
+b<2>           |f<0>           |    8.122|
+b<2>           |f<1>           |    8.097|
+b<2>           |f<2>           |    7.657|
+b<2>           |f<3>           |    8.125|
+b<2>           |f<4>           |    8.011|
+b<2>           |f<5>           |    7.868|
+b<2>           |f<6>           |    8.068|
+b<3>           |f<0>           |    7.519|
+b<3>           |f<1>           |    7.494|
+b<3>           |f<2>           |    7.054|
+b<3>           |f<3>           |    7.522|
+b<3>           |f<4>           |    7.408|
+b<3>           |f<5>           |    7.265|
+b<3>           |f<6>           |    7.465|
+s<0>           |f<0>           |    9.371|
+s<0>           |f<1>           |    9.346|
+s<0>           |f<2>           |    8.906|
+s<0>           |f<3>           |    9.374|
+s<0>           |f<4>           |    9.260|
+s<0>           |f<5>           |    9.117|
+s<0>           |f<6>           |    9.317|
+s<1>           |f<0>           |    9.672|
+s<1>           |f<1>           |    9.647|
+s<1>           |f<2>           |    9.207|
+s<1>           |f<3>           |    9.675|
+s<1>           |f<4>           |    9.561|
+s<1>           |f<5>           |    9.418|
+s<1>           |f<6>           |    9.618|
+s<2>           |f<0>           |    7.693|
+s<2>           |f<1>           |    7.668|
+s<2>           |f<2>           |    7.681|
+s<2>           |f<3>           |    7.864|
+s<2>           |f<4>           |    7.582|
+s<2>           |f<5>           |    7.607|
+s<2>           |f<6>           |    7.639|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Nov 22 22:24:14 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 388 MB
+
+
+
